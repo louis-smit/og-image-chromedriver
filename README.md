@@ -21,7 +21,7 @@ Fork this repository and clone it locally. You'll need the following prerequisit
 
 - [Elixir](https://elixir-lang.org/install.html)
 - [Google Chrome](https://www.google.com/chrome/index.html)
-- [Node.js (18.x)](https://github.com/nvm-sh/nvm#installing-and-updating)
+- [Node.js (22.x or later)](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Run the bootstrap script to install dependencies:
 

@@ -27,7 +27,7 @@ RUN apt-get update -y && apt-get install -y build-essential git curl \
 
 # install node
 # https://github.com/nodesource/distributions#installation-instructions
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
     && apt-get install -y nodejs
 
 # install latest npm
@@ -90,7 +90,7 @@ RUN apt-get update -y \
 
 # install node
 # https://github.com/nodesource/distributions#installation-instructions
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
     && apt-get install -y nodejs
 
 # Set the locale
